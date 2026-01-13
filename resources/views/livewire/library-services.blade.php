@@ -15,7 +15,7 @@
         @endif
     </div>
 
-    {{-- SUCCESS MESSAGE --}}
+    {{-- SUCCESS MESSAGES --}}
     @if (session('message'))
     <div class="bg-green-100 dark:bg-green-900/30 border border-green-200 dark:border-green-800 text-green-700 dark:text-green-300 px-4 py-3 rounded-lg mb-6 flex items-center gap-2 shadow-sm">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
